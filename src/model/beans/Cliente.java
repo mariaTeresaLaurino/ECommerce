@@ -24,18 +24,23 @@ public class Cliente {
 	public ArrayList<Indirizzo> getIndirizzoCliente() {
 		return indirizzoCliente;
 	}
+	
 	public void setIndirizzoCliente(ArrayList<Indirizzo> indirizzoCliente) {
 		this.indirizzoCliente = indirizzoCliente;
 	}
+	
 	public Indirizzo getIndirizzoFattturazione() {
 		return indirizzoFattturazione;
 	}
+	
 	public void setIndirizzoFattturazione(Indirizzo indirizzoFattturazione) {
 		this.indirizzoFattturazione = indirizzoFattturazione;
 	}
+	
 	public String getUsername() {
 		return username;
 	}
+	
 	public void setUsername(String username) {
 		this.username = username;
 	}

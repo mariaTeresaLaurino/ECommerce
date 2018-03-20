@@ -6,5 +6,6 @@ public interface RataDao {
 	
 	public boolean update(Rata rata);
 	public boolean inserRata(Rata rata);
+	
 
 }

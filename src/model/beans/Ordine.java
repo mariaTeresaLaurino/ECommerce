@@ -11,7 +11,7 @@ public class Ordine {
 	private Cliente cliente;
 	private boolean isFinanziato=false;
 	private Indirizzo indirizzoSpedizione;
-	private String modalitaPagamento;
+	private  ModalitaPagamento modalitaPagamento;
 	
 	
 	
@@ -20,10 +20,10 @@ public class Ordine {
 	
 	
 	
-	public String getModalitaPagamento() {
+	public ModalitaPagamento getModalitaPagamento() {
 		return modalitaPagamento;
 	}
-	public void setModalitaPagamento(String modalitaPagamento) {
+	public void setModalitaPagamento(ModalitaPagamento modalitaPagamento) {
 		this.modalitaPagamento = modalitaPagamento;
 	}
 	public Indirizzo getIndirizzoSpedizione() {

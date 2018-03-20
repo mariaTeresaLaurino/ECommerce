@@ -22,9 +22,6 @@ public interface ClienteLogInService {
 	
 	//2 gruppo(prodotto)
 	public boolean aggiungiIndirizzo(String username);
-	public ArrayList<Prodotto> selectCategoria();
-	public ArrayList<Prodotto> visualizzaProdottoByCategoria (String categoria);
-	public Prodotto visualizzaProdotto (int idProdotto);
 	
 	
 	

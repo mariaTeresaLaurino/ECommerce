@@ -12,7 +12,7 @@ public interface ClienteLogInService {
 	
 	
 	public boolean registraUtente (Cliente cliente);
-	public Cliente logIn (String username, String password);
+	public boolean logIn (String username, String password);
 	
 	public Cliente modificaCliente (String username );
 	public Cliente visualizzaCliente (String username);
@@ -20,7 +20,7 @@ public interface ClienteLogInService {
 	public Ordine visualizzaDettaglioOrdine (String username, int idOrdine);
 
 	
-	//2 gruppo(prodotto)
+	
 	public boolean aggiungiIndirizzo(String username);
 	
 	

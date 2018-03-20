@@ -14,8 +14,8 @@ public interface ClienteDao {
 	public boolean delete (String username )throws Exception;
 	public Cliente select (String username)throws Exception;
 	public ArrayList<Cliente> select () throws Exception;
+	public boolean logIn(String username,String password) throws Exception;
 	
-
 
 
 }

@@ -15,8 +15,9 @@ public class Cliente {
 	private String codiceFiscale;
 	private boolean isAffidabile;
 	private TipologiaCliente tipologia;
-	private boolean isAdmin;
-	private Indirizzo indirizzoFattturazione;
+	private boolean isAdmin=false;
+	private Indirizzo indirizzoFatturazione;
+	private int idCliente;
 	
 	
 	
@@ -29,12 +30,12 @@ public class Cliente {
 		this.indirizzoCliente = indirizzoCliente;
 	}
 	
-	public Indirizzo getIndirizzoFattturazione() {
-		return indirizzoFattturazione;
+	public Indirizzo getIndirizzoFatturazione() {
+		return indirizzoFatturazione;
 	}
 	
-	public void setIndirizzoFattturazione(Indirizzo indirizzoFattturazione) {
-		this.indirizzoFattturazione = indirizzoFattturazione;
+	public void setIndirizzoFatturazione(Indirizzo indirizzoFatturazione) {
+		this.indirizzoFatturazione = indirizzoFatturazione;
 	}
 	
 	public String getUsername() {
@@ -110,6 +111,14 @@ public class Cliente {
 		return "Cliente [username=" + username + ", password=" + password + ", email=" + email + ", cellulare="
 				+ cellulare + ", telefono=" + telefono + ", indirizzoFatturazione=" +", ragioneSociale=" + ragioneSociale + ", pIva=" + pIva + ", codiceFiscale=" + codiceFiscale
 				+ ", isAffidabile=" + isAffidabile + ", tipologia=" + tipologia + ", isAdmin=" + isAdmin + "]";
+	}
+
+	public int getIdCliente() {
+		return idCliente;
+	}
+
+	public void setIdCliente(int idCliente) {
+		this.idCliente = idCliente;
 	}
 	
 	
